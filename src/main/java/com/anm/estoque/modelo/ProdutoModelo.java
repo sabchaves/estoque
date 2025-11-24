@@ -7,11 +7,11 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table (name = "tb_produtos")
+@Table(name = "tb_produtos")
 @Setter
 @Getter
-
 public class ProdutoModelo {
+
     @Id
     private Long id;
 
@@ -19,5 +19,4 @@ public class ProdutoModelo {
     private Double preco;
     private String modelo;
     private String descricao;
-    
 }
